@@ -135,9 +135,9 @@ input::placeholder {
 }
 /* Завдання 12 */
 li::before {
-    background: #ff0;
+    content: '\25C2';
 }
 /* Завдання 13 */
-input::placeholder {
-    background: #f00;
+li::after {
+    content: '\25B8';
 }
